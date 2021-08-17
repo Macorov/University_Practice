@@ -1,8 +1,16 @@
-def remove_odd(lst):
-    final = []
-    for i in lst:
-        if i % 2 ==0:
-            final.append(i)
-    return(final)
-print(remove_odd ([21, 33, 44, 66, 11, 1, 88, 45, 10, 9]))
-print(remove_odd ([11,2,3,4,5,2,0,5,3]))
+def function_name(word):
+    word = word.lower()
+    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+    flag = 6
+    lst = []
+    for i in word:
+        if i >= "a" and i <= "j":
+            if i not in lst:
+                lst.append(i)
+    lst = sorted(lst)       
+    if lst == letters:
+        flag = 5    
+    for i in range(flag):
+            print("Chelsea is the best club in England")
+word = input("Enter a sentence: ")
+function_name(word)   
