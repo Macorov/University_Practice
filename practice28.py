@@ -1,4 +1,4 @@
-lst = [2,53,-2,6]
+lst = [2,53,-2,6,2]
 for i in range(len(lst)):
     min_index = i
     for j in range(i+1,len(lst)): #section sort 
