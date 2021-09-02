@@ -1,0 +1,5 @@
+file = open('abcde.txt', 'x' )
+file.write("Name: Macorov\n")
+file.write("Rank: Colonel\n")
+file.write("On service\n")
+file.close()
