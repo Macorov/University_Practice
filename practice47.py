@@ -1,0 +1,5 @@
+file = open("bracufile1.txt","w")
+file.write("Name: Macorov\n")
+file.write("Rank: Colonel\n")
+file.write("On service\n")
+file.close()
