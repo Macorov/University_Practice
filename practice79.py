@@ -22,4 +22,4 @@ def function_name(word,lstnum,lstsp):
             final += i
     return final
 print(function_name("Programming is fun. Let’s code.", [6, 8], ['$', '#', '@']))
-print(function_name('Python is easy', [3, 5], ['@', '*', '+']))           
+print(function_name('Python is easy', [3, 5], ['@', '*', '+']))                
