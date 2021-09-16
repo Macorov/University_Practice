@@ -8,4 +8,4 @@ def rangeditector(num):
     finally:
         print("Program ended")
 num = int(input("Enter a number: "))
-rangeditector(num)
+rangeditector(num) 
